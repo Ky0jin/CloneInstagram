@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    margin: 3%;
+    width: 7%;
+    height: 5%;
+}
+
+header {
+    border-bottom: 0.1em solid black;
+    flex-direction: row-reverse;
+    top: 0;
+}
+
+header, footer {
+    background-color: white;
+    position: fixed;
+}
+
+footer {
+    justify-content: space-between;
+    bottom: 0;
+}
+
+article, footer {
+    border-top: 0.1em solid black;
+}
+
+h1 {
+   font-size: 3.6em; 
+}
+
+article img {
+    margin: 0px;
+}
+
+article, article img, .comentarios, .flexPattern {
+    width: 100%;
+}
+
+.curtidas {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.3em;
+    opacity: .6;
+}
+
+span {
+    font-weight: bold;
+}
+
+.comentarios {
+    font-size:10em;
+}
+
+.flexPattern, .topoartigo, .botoes2 {
+    display: flex;
+}
+
+.topoartigo, .botoes2, footer {
+   align-items: center;
+}
+
+.top {
+    margin-top: 9em;
+}
+
+.bottom {
+    margin-bottom: 10em;
+}
+
+.bola {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.pontos, .favorito {
+    margin-left: 50%;
+}
+
+#logo {
+    margin-right: 28%;
+    width: 30%;
+}
