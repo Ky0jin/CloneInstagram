@@ -47,7 +47,10 @@ article, article img, .comentarios, .flexPattern {
 
 p {
     font-size: 1.3em;
-    opacity: .6;
+}
+
+.cinza {
+    color: grey;
 }
 
 span {
